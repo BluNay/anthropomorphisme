@@ -199,10 +199,17 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.message img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
 .message-examples {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
+    gap: 2rem;
 }
 
 .message {

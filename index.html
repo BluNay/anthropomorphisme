@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>L'Anthropomorphisme en UX/UI</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#accueil">Accueil</a></li>
+					<li><a href="#assistants">Assistants</a></li>
+					<li><a href="#icones">Icônes</a></li>
+					<li><a href="#messages">Messages</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="accueil">
+				<h1>L'Anthropomorphisme en UX/UI</h1>
+				<p>Découvrez comment l'humanisation des interfaces améliore l'expérience utilisateur.</p>
+				<div class="mascot">
+					<img src="images/mascot.png" alt="Mascotte du site" id="mascot-img" />
+					<p id="mascot-message">Bienvenue ! Je suis là pour vous guider.</p>
+				</div>
+			</section>
+
+			<section id="origines">
+				<h2>Les Origines de l'Anthropomorphisme en UX/UI</h2>
+				<div class="pioneers">
+					<div class="pioneer" id="susan-kare">
+						<img src="images/susan-kare.jpg" alt="Susan Kare" />
+						<h3>Susan Kare</h3>
+						<p>Créatrice des icônes du Macintosh</p>
+						<div class="pioneer-work">
+							<img src="images/happy-mac.jpg" alt="Happy Mac" />
+							<img src="images/trash.jpg" alt="Trash Icon" />
+						</div>
+					</div>
+					<div class="pioneer" id="shigetaka-kurita">
+						<img src="images/shigetaka-kurita.png" alt="Shigetaka Kurita" />
+						<h3>Shigetaka Kurita</h3>
+						<p>Père des emoji</p>
+						<div class="pioneer-work">
+							<img src="images/original-emoji.jpg" alt="Original Emoji Set" />
+						</div>
+					</div>
+				</div>
+				<div class="impact">
+					<h3>Impact sur l'UX/UI moderne</h3>
+					<ul>
+						<li>Interfaces plus intuitives et conviviales</li>
+						<li>Communication visuelle universelle</li>
+						<li>Expression des émotions dans le numérique</li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="assistants">
+				<h2>Assistants Virtuels</h2>
+				<div class="assistant-demo">
+					<div class="assistant" id="siri">
+						<img src="images/siri.png" alt="Siri" />
+						<p>"Bonjour ! Comment puis-je vous aider aujourd'hui ?"</p>
+					</div>
+					<div class="assistant" id="alexa">
+						<img src="images/alexa.png" alt="Alexa" />
+						<p>"Salut ! Je suis là pour répondre à vos questions."</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="icones">
+				<h2>Icônes et Mascottes</h2>
+				<div class="icon-grid">
+					<div class="icon-item">
+						<img src="images/success.png" alt="Succès" class="emoji" />
+						<p>Tâche réussie !</p>
+					</div>
+					<div class="icon-item">
+						<img src="images/error.png" alt="Erreur" class="emoji" />
+						<p>Oups, une erreur s'est produite.</p>
+					</div>
+					<div class="icon-item">
+						<img src="images/loading.gif" alt="Chargement" class="emoji" />
+						<p>Chargement en cours...</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="messages">
+				<h2>Messages Conversationnels</h2>
+				<div class="message-examples">
+					<div class="message">
+						<h3>Message d'erreur classique</h3>
+						<p class="error-message">Erreur 404 : Page non trouvée</p>
+					</div>
+					<div class="message">
+						<h3>Message d'erreur anthropomorphique</h3>
+						<p class="friendly-message">
+							Oups ! Cette page semble avoir disparu. Peut-être est-elle partie en vacances ? 🏖️
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; 2025 L'Anthropomorphisme en UX/UI</p>
+		</footer>
+
+		<div id="imageModal" class="modal">
+			<span class="close">&times;</span>
+			<img class="modal-content" id="modalImage" />
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
